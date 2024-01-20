@@ -2,11 +2,8 @@
 
 <div align="center">
   <img src="https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif" alt="Image Gallery Demo">
-  <br>
-  <iframe src="https://giphy.com/embed/2IudUHdI075HL02Pkk" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  <p><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk">via GIPHY</a></p>
+  <img src="https://giphy.com/nedia/2IudUHdI075HL02Pkk/giphy.gif" alt="Image Gallery Demo">
 </div>
-
 
 
 This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using Docker.
