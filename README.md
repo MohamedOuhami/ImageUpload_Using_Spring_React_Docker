@@ -1,6 +1,9 @@
 # Image Gallery Using Spring React and Docker
 
-![Image Gallery Demo](https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif)
+<div align="center">
+  <img src="https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif" alt="Image Gallery Demo">
+</div>
+
 
 This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using Docker.
 
@@ -9,7 +12,6 @@ In the backend, I used Spring to create my entities (Image), controller, and ser
 
 ## FrontEnd React:
 For the frontend, I thought of using an SPA, so the choice was put on React, where I've created one component that fetches the data asynchronously from the Spring server and gets the bytes of the images that were converted on the server and were not stored to show the list of the images. The images can be added by batch (More than one image at once), and show and deleted.
-
 ---
 
 # Image demo: 
