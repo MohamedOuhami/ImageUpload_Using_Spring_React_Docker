@@ -1,0 +1,38 @@
+version: "3"
+services:
+  image_spring:
+    build: ./learn_image_upload_download
+    container_name: image_spring
+    ports:
+      - "8080:8080"
+    networks:
+      - image_spring_network
+    depends_on:
+      - mysql
+    volumes:
+      - ./images:/app/images
+ 
+  mysql:
+    image: mysql
+    ports:
+      - "3037:3036"
+    networks:
+      - image_spring_network
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+
+  image_react:
+    image: image_react
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    networks:
+      - image_spring_network
+    depends_on:
+      - image_spring
+    
+
+
+networks:
+  image_spring_network:
