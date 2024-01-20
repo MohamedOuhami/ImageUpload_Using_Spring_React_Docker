@@ -12,6 +12,7 @@ In the backend, I used Spring to create my entities (Image), controller, and ser
 
 ## FrontEnd React:
 For the frontend, I thought of using an SPA, so the choice was put on React, where I've created one component that fetches the data asynchronously from the Spring server and gets the bytes of the images that were converted on the server and were not stored to show the list of the images. The images can be added by batch (More than one image at once), and show and deleted.
+
 ---
 
 # Image demo: 
