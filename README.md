@@ -1,5 +1,7 @@
 # Image Gallery Using Spring React and Docker
----
+
+<iframe src="https://giphy.com/embed/55vNcZTGlOzHvNgrTz" width="480" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rx-tss-caas-55vNcZTGlOzHvNgrTz">via GIPHY</a></p>
+
 This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using 
 Docker
 
