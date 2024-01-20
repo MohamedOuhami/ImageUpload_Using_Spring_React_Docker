@@ -2,7 +2,6 @@
 
 <div align="center">
   <img src="https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif" alt="Image Gallery Demo">
-  <img src="https://giphy.com/nedia/2IudUHdI075HL02Pkk/giphy.gif" alt="Image Gallery Demo">
 </div>
 
 
