@@ -3,6 +3,9 @@
 <div align="center">
   <img src="https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif" alt="Image Gallery Demo">
 </div>
+
+This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using Docker.
+
 # Install the project : 
 
 ## From Docker Hub : 
@@ -18,9 +21,7 @@
 docker-compose up
 ```
 
-**If the spring container pulls a SQL connection problem, make sure to re-run the Spring container in Docker Desktop or by CLI after both MySQL and React containers run**
-
-This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using Docker.
+***If the spring container pulls a SQL connection problem, make sure to re-run the Spring container in Docker Desktop or by CLI after both MySQL and React containers run***
 
 ## Backend Spring: 
 In the backend, I used Spring to create my entities (Image), controller, and service (The service also contains a method to save the image in the file system, to fasten the data retrieval of the images from the database (MySQL)).
