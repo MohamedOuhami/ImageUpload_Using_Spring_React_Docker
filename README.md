@@ -3,7 +3,22 @@
 <div align="center">
   <img src="https://media.giphy.com/media/55vNcZTGlOzHvNgrTz/giphy.gif" alt="Image Gallery Demo">
 </div>
+# Install the project : 
 
+## From Docker Hub : 
+1. Pull the images from Docker Hub : (https://hub.docker.com/r/mouhami/image_upload/tags)
+2. Make sure the ports 3306. 8080 and 3000 are free in your system
+   
+# From the project : 
+
+1. Clone the project in a folder
+2. Move to the root folder containing the docker-compose file
+3. Run the following command to build the images and run the containers
+```
+docker-compose up
+```
+
+**If the spring container pulls a SQL connection problem, make sure to re-run the Spring container in Docker Desktop or by CLI after both MySQL and React containers run**
 
 This project represents a personal project of an Image Gallery made with Spring (Java) as the backend, and React as the front end. Finishing by containerizing the project using Docker.
 
